@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content {
+  @apply max-w-[1200px] mx-auto px-[10px] md:px-[20px];
+}
