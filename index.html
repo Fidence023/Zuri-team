@@ -55,12 +55,14 @@
       </header>
       <main class="flex flex-col md:flex-row content">
         <aside class="w-full md:w-full space-y-8 mt-[2rem] md:mt-[5rem]">
-          <div class="border-2 border-zuriBrown rounded-[20px] w-[13rem]">
+          <div
+            class="border-2 ml-[5%] md:ml-0 border-zuriBrown rounded-[20px] w-[13rem]"
+          >
             <h3 class="text-zuriBrown content rounded-[5rem]">
               Welcome To Zuri Team
             </h3>
           </div>
-          <div class="mt-1">
+          <div class="mt-1 ml-[5%] md:ml-0">
             <h1 class="text-[17px] md:text-[48px] text-zuriBrown">
               Expert-led courses for beginners & seasoned professionals.
             </h1>
@@ -71,7 +73,7 @@
               trainings.
             </p>
           </div>
-          <div class="flex flex-row content mt-8 gap-6">
+          <div class="flex flex-row content ml-[5%] md:ml-0 mt-8 gap-6">
             <a href="">
               <button class="bg-zuriOrange rounded-[20px] text-white py-2 px-4">
                 Browse Courses
@@ -87,7 +89,7 @@
           </div>
         </aside>
         <aside
-          class="w-full h-[35rem] bg-[url(../assests/zuri.team/1_1.avif)] bg-no-repeat bg-contain bg-center"
+          class="w-full h-[35rem] mt-[5%] md:mt-0 bg-[url(../assests/zuri.team/1_1.avif)] bg-no-repeat bg-contain bg-center"
         ></aside>
       </main>
       <section class="content">
@@ -185,17 +187,19 @@
       </section>
 
       <section class="mt-9 bg-zuriBrown w-full">
-        <div class="bg-zuriBrown flex flex-col justify-center space-y-4">
-          <h2 class="text-red-500 content font-bold mt-14 md:mt-20 text-2xl">
+        <div class="bg-zuriBrown w-full flex flex-col justify-center space-y-4">
+          <h2
+            class="text-red-500 content font-bold mt-14 md:mt-20 text-2xl items-center"
+          >
             The Problem
           </h2>
           <h1
-            class="content text-[30px] md:text-5xl font-medium font-serif text-white w-[25rem] md:w-[40rem]"
+            class="content text-[30px] md:text-5xl font-medium font-serif text-white w-[25rem] md:w-[40rem] ml-0"
           >
             Barriers keep people from learning tech the right way
           </h1>
           <h3
-            class="content font-light text-[14px] md:text-base text-white ml-8"
+            class="content font-light text-[15px] md:text-base text-white ml-8"
           >
             Tech-curious individuals in the UK often face challenges like:
           </h3>
@@ -203,36 +207,42 @@
         <div
           class="flex flex-col md:flex-row content justify-between mt-10 w-full gap-10"
         >
-          <!-- <div class="mt-8 w-full">
+          <div class="md:mt-8 w-full">
             <h3
-              class="text-white font-sans font-light text-[30px] w-[19rem] ml-[10%]"
+              class="text-white font-sans font-bold text-[30px] w-[19rem] ml-[35%] md:ml-[10%]"
             >
               cost
             </h3>
             <p
-              class="text-white text-center leading-relaxed font-sans font-light text-xl w-[19rem]"
+              class="text-white text-center leading-relaxed font-sans font-light text-xl w-[19rem] ml-[15%] md:ml-0"
             >
               The most valuable tech courses often come with a hefty price tag,
               putting them out of reach for many learners.
             </p>
-          </div> -->
-          <!-- <div class="flex flex-col mt-8">
-            <h3 class="text-white font-sans font-bold text-2xl content">
+          </div>
+
+          <div class="md:mt-8 w-full">
+            <h3
+              class="text-white font-sans font-bold text-[30px] w-[19rem] ml-[30%] md:ml-[10%]"
+            >
               Distance
             </h3>
             <p
-              class="text-white text-center leading-relaxed font-light text-xl w-[19rem]"
+              class="text-white text-center leading-relaxed font-light text-xl w-[19rem] ml-[15%] md:ml-0"
             >
               Busy schedules and long commutes make it difficult for many to
               attend in-person classes or training programs.
             </p>
-          </div>  -->
+          </div>
+
           <!-- <div class="flex flex-col mt-8">
-            <h3 class="text-white font-sans font-bold text-2xl content">
+            <h3
+              class="text-white font-sans font-bold text-2xl content ml-[35%] md:ml-[10%]"
+            >
               Entrance Exams
             </h3>
             <p
-              class="text-white text-center font-light leading-relaxed text-xl w-[19rem]"
+              class="text-white text-center font-light leading-relaxed text-xl w-[19rem] ml-[15%] md:ml-0"
             >
               Many bootcamps and tech schools require tough entrance exams that
               discourage or exclude eager learners.
